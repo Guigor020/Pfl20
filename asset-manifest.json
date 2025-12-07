@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.eece1f2d.css",
-    "main.js": "/Portfolio/static/js/main.82e977bb.js",
+    "main.js": "/Portfolio/static/js/main.9db6600f.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/leaf.png": "/Portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/codeEditor.png": "/Portfolio/static/media/codeEditor.1b585492490c8c1cace9.png",
     "static/media/logo.png": "/Portfolio/static/media/logo.e9506961129890878965.png",
+    "static/media/CV_Mouhamadou_Gorgui_CISSE_EN.pdf": "/Portfolio/static/media/CV_Mouhamadou_Gorgui_CISSE_EN.6c5fe4c297a030af3ac8.pdf",
     "static/media/home-main.svg": "/Portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/chatify.png": "/Portfolio/static/media/chatify.7206044e0b5cdad44726.png",
-    "static/media/Soumyajit_Behera.pdf": "/Portfolio/static/media/Soumyajit_Behera.0a483621860835f0c118.pdf",
     "static/media/avatar.svg": "/Portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
     "static/media/Mongo.svg": "/Portfolio/static/media/Mongo.330a0b8d252ae55ce72f3b6d60388b73.svg",
     "static/media/AWS.svg": "/Portfolio/static/media/AWS.f12ad75c9817aebf73d32f167ea894de.svg",
@@ -22,11 +22,11 @@
     "static/media/Java.svg": "/Portfolio/static/media/Java.edcb9f2574179c38ce343ae59e91b5bc.svg",
     "static/media/Git.svg": "/Portfolio/static/media/Git.9da88573cca3c97a3a1523ae09d93654.svg",
     "main.eece1f2d.css.map": "/Portfolio/static/css/main.eece1f2d.css.map",
-    "main.82e977bb.js.map": "/Portfolio/static/js/main.82e977bb.js.map",
+    "main.9db6600f.js.map": "/Portfolio/static/js/main.9db6600f.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eece1f2d.css",
-    "static/js/main.82e977bb.js"
+    "static/js/main.9db6600f.js"
   ]
 }
