@@ -13,39 +13,33 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
-              <br />
-              <br />
-              I’m proficient in
-              <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
-                </b>
-              </i>
-              — and I enjoy working across both backend and frontend stacks.
-              <br />
-              <br />
-              My key areas of interest include developing
-              <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
-              <br />
-              <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
-            </p>
+  I started my journey in Networks and Cybersecurity,
+  before discovering my passion for <span className="purple">Data Science </span>
+  and <span className="purple">Artificial Intelligence</span>.
+  Today, I thrive on analyzing and transforming data to build
+  useful, intelligent, and impactful solutions.
+  <br />
+  <br />
+  I primarily work with
+  <i>
+    <b className="purple"> Python, SQL, Pandas, Scikit-learn, TensorFlow </b>
+  </i>
+  and I also explore technologies related to Web Development and Systems.
+  <br />
+  <br />
+  My fields of interest include building new
+  <i>
+    <b className="purple"> Machine Learning models, Data Pipelines, </b>
+  </i>
+  and I maintain a strong focus on <b className="purple">Cybersecurity</b>.
+  <br />
+  <br />
+  Whenever possible, I love building projects that bridge the gap between
+  <b className="purple"> Data Science </b> and{" "}
+  <i>
+    <b className="purple">Development (React.js, APIs, Automation)</b>.
+  </i>
+</p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -57,4 +51,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

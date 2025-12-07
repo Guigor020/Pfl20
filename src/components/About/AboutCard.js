@@ -8,15 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            Hi everyone! I’m <span className="purple">Mouhamadou Gorgui CISSE</span>{" "}
+            from <span className="purple">Dakar, Senegal</span>.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            I’m currently a <span className="purple">Master 2 Student</span> in Data Science & AI at Mundiapolis university in Casablanca.
+            <br />
+            I have a background in <span className="purple">Cybersecurity</span> and I am actively looking for my <span className="purple">End-of-Studies Internship (PFE)</span>.
             <br />
             <br />
             Outside of coding, I love engaging in activities that keep me
@@ -25,20 +22,20 @@ function AboutCard() {
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> Traveling, discovering new places
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
+              <ImPointRight /> Going to the gym, boosting energy and focus
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> Exploring New Technologies 
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Data is not just numbers, it's the new oil!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">MGC</footer>
         </blockquote>
       </Card.Body>
     </Card>

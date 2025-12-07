@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+
+// J'utilise les images existantes pour l'instant pour éviter les erreurs.
+// Pensez à ajouter vos propres captures d'écran dans le dossier Assets plus tard.
+import leaf from "../../Assets/Projects/leaf.png";     // Pour le projet YOLO
+import chatify from "../../Assets/Projects/chatify.png"; // Pour le projet RAG
+import editor from "../../Assets/Projects/codeEditor.png"; // Pour le projet Fusion
 
 function Projects() {
   return (
@@ -21,72 +21,43 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
+          {/* PROJET 1 : COMPUTER VISION */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={leaf} // Changez cette image plus tard
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Real-Time Object Detection (YOLOv8)"
+              description="A computer vision project utilizing YOLOv8 to detect and classify objects in real-time video streams. Optimized for performance with PyTorch and OpenCV, capable of identifying traffic signs and pedestrians with high accuracy (mAP@50 > 0.95)."
+              ghLink="https://github.com/VOTRE-PSEUDO/NOM-DU-REPO-YOLO"
+              demoLink="https://huggingface.co/" // Lien vers une démo ou une vidéo youtube si dispo
             />
           </Col>
 
+          {/* PROJET 2 : RAG / CYBER */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={chatify} // Changez cette image plus tard
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="CyberSec RAG Assistant"
+              description="An AI-powered assistant built with LangChain and OpenAI API (or Mistral). It uses Retrieval-Augmented Generation (RAG) to query a vector database containing cybersecurity course materials, providing accurate answers with citations while minimizing hallucinations."
+              ghLink="https://github.com/VOTRE-PSEUDO/NOM-DU-REPO-RAG"
+              // demoLink=""  <-- Enlevez le commentaire si vous avez un lien de démo
             />
           </Col>
 
+          {/* PROJET 3 : FUSION CAPTEURS / DATA */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={editor} // Changez cette image plus tard
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="LiDAR & Camera Sensor Fusion"
+              description="Implementation of a Sensor Fusion algorithm combining 3D Point Clouds (LiDAR) and RGB Images (Camera) using the KITTI dataset. Used for precise 3D object tracking and depth estimation in autonomous driving scenarios."
+              ghLink="https://github.com/VOTRE-PSEUDO/NOM-DU-REPO-FUSION"
+              // demoLink="" 
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
