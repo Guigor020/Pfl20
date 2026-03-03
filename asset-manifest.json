@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Pfl20/static/css/main.030c06f2.css",
-    "main.js": "/Pfl20/static/js/main.bc7ca5d5.js",
+    "main.js": "/Pfl20/static/js/main.744924e8.js",
     "static/js/453.ace21015.chunk.js": "/Pfl20/static/js/453.ace21015.chunk.js",
     "static/media/lidar.png": "/Pfl20/static/media/lidar.38824338ec313142b5b3.png",
     "static/media/avatar.png": "/Pfl20/static/media/avatar.d341df7daa1a8b406dc2.png",
     "static/media/streamlit.png": "/Pfl20/static/media/streamlit.fdfae8f5a06b49821471.png",
     "static/media/Yolov.png": "/Pfl20/static/media/Yolov.b24ad0dae61d98c03155.png",
     "static/media/logo.png": "/Pfl20/static/media/logo.e9506961129890878965.png",
-    "static/media/CV_Mouhamadou_Gorgui_CISSE_EN.pdf": "/Pfl20/static/media/CV_Mouhamadou_Gorgui_CISSE_EN.2d73981eb700c068d215.pdf",
-    "static/media/home-main.svg": "/Pfl20/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/CV_Mouhamadou_Gorgui_CISSE_FR.pdf": "/Pfl20/static/media/CV_Mouhamadou_Gorgui_CISSE_FR.a21a51df5b5c77f86d10.pdf",
+    "static/media/CV_Mouhamadou_Gorgui_CISSE_EN.pdf": "/Pfl20/static/media/CV_Mouhamadou_Gorgui_CISSE_EN.3edbf46e81e6b80acfb8.pdf",
     "static/media/about.png": "/Pfl20/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/rag.png": "/Pfl20/static/media/rag.24d2cbb1006dddf61ada.png",
     "static/media/Mongo.svg": "/Pfl20/static/media/Mongo.330a0b8d252ae55ce72f3b6d60388b73.svg",
@@ -23,11 +23,11 @@
     "index.html": "/Pfl20/index.html",
     "static/media/Git.svg": "/Pfl20/static/media/Git.9da88573cca3c97a3a1523ae09d93654.svg",
     "main.030c06f2.css.map": "/Pfl20/static/css/main.030c06f2.css.map",
-    "main.bc7ca5d5.js.map": "/Pfl20/static/js/main.bc7ca5d5.js.map",
+    "main.744924e8.js.map": "/Pfl20/static/js/main.744924e8.js.map",
     "453.ace21015.chunk.js.map": "/Pfl20/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.030c06f2.css",
-    "static/js/main.bc7ca5d5.js"
+    "static/js/main.744924e8.js"
   ]
 }
